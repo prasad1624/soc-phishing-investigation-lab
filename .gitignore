@@ -1,0 +1,85 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Packet Captures
+*.pcap
+*.pcapng
+*.cap
+*.pcap.gz
+
+# Email Files
+*.eml
+*.msg
+mail/
+
+# Virtual Machine Files
+*.vmdk
+*.vdi
+*.vhd
+*.vmx
+*.vmem
+*.nvram
+*.log
+VirtualBox VMs/
+vmware/
+
+# Screenshots (if you want to keep them, remove this line)
+# screenshots/
+
+# Evidence (if you want to keep them, remove this line)
+evidence/
+*.pcap
+*.eml
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.cache
+
+# PDF Files (if generated)
+*.pdf
+!investigation/*.pdf
+!jira-tickets/*.pdf
+
+# JSON Logs (if you want to keep them, remove this line)
+*.json
+!logs/*.json
