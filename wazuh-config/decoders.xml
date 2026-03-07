@@ -1,0 +1,3 @@
+<decoder name="phishing_project">
+  <prematch>Subject: |Our system indicates |http://IT-Security.contoso.com</prematch>
+</decoder>

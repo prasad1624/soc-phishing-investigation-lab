@@ -1,0 +1,25 @@
+<group name="phishing_detect">
+
+
+  <rule id="100002" level="9">
+    <decoded_as>phishing_project</decoded_as>
+    <match>Subject: Action required: Your password expires in 24 hours</match>
+    <description>Phishing: Password urgency language in subject</description>
+  </rule>
+
+  <rule id="100003" level="9">
+    <decoded_as>phishing_project</decoded_as>
+    <match>Our system indicates that your network password is scheduled to expire</match>
+    <description>Phishing: Specific phishing template text detected in body</description>
+  </rule>
+
+  <rule id="100004" level="12">
+    <decoded_as>phishing_project</decoded_as>
+    <match>http://IT-Security.contoso.com/office365/login.php</match>
+    <description>CRITICAL: Malicious Phishing Link detected in email body</description>
+    <mitre>
+      <id>T1566.002</id>
+    </mitre>
+  </rule>
+
+</group>
