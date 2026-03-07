@@ -159,11 +159,18 @@ soc-phishing-investigation-lab/
 
 Three Wazuh SIEM alerts triggered within seconds of email delivery.
 
-| Screenshot | Description |
-|-----------|-------------|
-| 01-wazuh-alert-dashboard.png | Rule 100002 - Password urgency language in subject |
-| 02-wazuh-alert-dashboard.png | Rule 100003 - Phishing template text detected |
-| 03-wazuh-alert-dashboard.png | Rule 100004 - Malicious link detected |
+### Wazuh Alert – Rule 100002 (Password Urgency Language)
+
+![Wazuh Alert Rule 100002](screenshots/01-wazuh-alerts-dashboard.png)
+
+### Wazuh Alert – Rule 100003 (Phishing Template Detected)
+
+![Wazuh Alert Rule 100003](screenshots/02-wazuh-alerts-dashboard.png)
+
+### Wazuh Alert – Rule 100004 (Malicious Link Detected)
+
+![Wazuh Alert Rule 100004](screenshots/03-wazuh-alerts-dashboard.png)
+
 
 ### Phishing Email
 
