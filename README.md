@@ -167,21 +167,21 @@ Three Wazuh SIEM alerts triggered within seconds of email delivery.
 
 ### Phishing Email
 
-![Phishing Email](screenshots/04-email-thunderbird.png)
+![Phishing Email](screenshots/email-thunderbird.png)
 
 ### Header Analysis
 
-![MX Toolbox Analysis](screenshots/06-mxtoolbox-analysis.png)
+![MX Toolbox Analysis](screenshots/mxtoolbox-analysis.png)
 
 ### Sandbox Analysis
 
-![Wireshark POST Request](screenshots/11-wireshark-post-request.png)
+![Wireshark POST Request](screenshots/wireshark-post-request.png)
 
-![Wireshark Credentials](screenshots/12-wireshark-credentials.png)
+![Wireshark Credentials](screenshots/wireshark-credentials.png)
 
 ### Containment
 
-![Firewall Block](screenshots/15-firewall-block-ufw.png)
+![Firewall Block](screenshots/firewall-block-ufw.png)
 
 ---
 
