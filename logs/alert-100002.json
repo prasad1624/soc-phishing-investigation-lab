@@ -1,0 +1,44 @@
+{
+  "_index": "wazuh-alerts-4.x-2026.03.06",
+  "_id": "_q--w5wBqDI8gCPytZqH",
+  "_score": 1,
+  "_source": {
+    "agent": {
+      "ip": "192.168.29.90",
+      "name": "agent3-ubuntu",
+      "id": "003"
+    },
+    "manager": {
+      "name": "ubuntu"
+    },
+    "rule": {
+      "firedtimes": 1,
+      "mail": false,
+      "level": 9,
+      "description": "Phishing: Password urgency language in subject",
+      "groups": [
+        "phishing_detect"
+      ],
+      "id": "100002"
+    },
+    "decoder": {
+      "name": "phishing_project"
+    },
+    "full_log": "Subject: Action required: Your password expires in 24 hours",
+    "input": {
+      "type": "log"
+    },
+    "@timestamp": "2026-03-06T15:22:52.963Z",
+    "location": "/home/sp/snap/thunderbird/common/.thunderbird/wt0ufik0.default/Mail/Local Folders/Inbox",
+    "id": "1772810572.681704",
+    "timestamp": "2026-03-06T20:52:52.963+0530"
+  },
+  "fields": {
+    "timestamp": [
+      "2026-03-06T15:22:52.963Z"
+    ],
+    "@timestamp": [
+      "2026-03-06T15:22:52.963Z"
+    ]
+  }
+}

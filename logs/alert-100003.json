@@ -1,0 +1,43 @@
+{
+  "_index": "wazuh-alerts-4.x-2026.03.06",
+  "_id": "_6--w5wBqDI8gCPytZqH",
+  "_score": null,
+  "_source": {
+    "input": {
+      "type": "log"
+    },
+    "agent": {
+      "ip": "192.168.29.90",
+      "name": "agent3-ubuntu",
+      "id": "003"
+    },
+    "manager": {
+      "name": "ubuntu"
+    },
+    "rule": {
+      "firedtimes": 1,
+      "mail": false,
+      "level": 9,
+      "description": "Phishing: Specific phishing template text detected in body",
+      "groups": [
+        "phishing_detect"
+      ],
+      "id": "100003"
+    },
+    "location": "/home/sp/snap/thunderbird/common/.thunderbird/wt0ufik0.default/Mail/Local Folders/Inbox",
+    "decoder": {
+      "name": "phishing_project"
+    },
+    "id": "1772810572.682016",
+    "full_log": "Our system indicates that your network password is scheduled to expire ",
+    "timestamp": "2026-03-06T20:52:52.989+0530"
+  },
+  "fields": {
+    "timestamp": [
+      "2026-03-06T15:22:52.989Z"
+    ]
+  },
+  "sort": [
+    1772810572989
+  ]
+}

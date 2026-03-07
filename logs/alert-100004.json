@@ -1,0 +1,54 @@
+{
+  "_index": "wazuh-alerts-4.x-2026.03.06",
+  "_id": "AK--w5wBqDI8gCPytZuH",
+  "_score": null,
+  "_source": {
+    "input": {
+      "type": "log"
+    },
+    "agent": {
+      "ip": "192.168.29.90",
+      "name": "agent3-ubuntu",
+      "id": "003"
+    },
+    "manager": {
+      "name": "ubuntu"
+    },
+    "rule": {
+      "firedtimes": 1,
+      "mail": true,
+      "level": 12,
+      "description": "CRITICAL: Malicious Phishing Link detected in email body",
+      "groups": [
+        "phishing_detect"
+      ],
+      "mitre": {
+        "technique": [
+          "Spearphishing Link"
+        ],
+        "id": [
+          "T1566.002"
+        ],
+        "tactic": [
+          "Initial Access"
+        ]
+      },
+      "id": "100004"
+    },
+    "location": "/home/sp/snap/thunderbird/common/.thunderbird/wt0ufik0.default/Mail/Local Folders/Inbox",
+    "decoder": {
+      "name": "phishing_project"
+    },
+    "id": "1772810572.682352",
+    "full_log": "http://IT-Security.contoso.com/office365/login.php",
+    "timestamp": "2026-03-06T20:52:52.995+0530"
+  },
+  "fields": {
+    "timestamp": [
+      "2026-03-06T15:22:52.995Z"
+    ]
+  },
+  "sort": [
+    1772810572995
+  ]
+}
