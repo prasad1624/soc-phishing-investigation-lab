@@ -121,7 +121,7 @@ soc-phishing-investigation-lab/
 │   └── decoders.xml
 │
 ├── investigation/
-│   ├── incident-report.pdf
+│   ├── SOC INCIDENT REPORT.pdf
 │   └── iocs.csv
 │
 ├── logs/
@@ -133,22 +133,22 @@ soc-phishing-investigation-lab/
 │   ├── 01-wazuh-alert-dashboard.png
 │   ├── 02-wazuh-alert-dashboard.png
 │   ├── 03-wazuh-alert-dashboard.png
-│   ├── 04-email-thunderbird.png
-│   ├── 05-email-headers.png
-│   ├── 06-mxtoolbox-analysis.png
-│   ├── 07-nslookup-domain.png
-│   ├── 08-whois.png
-│   ├── 09-virustotal.png
-│   ├── 10-phishing-page.png
-│   ├── 11-wireshark-post-request.png
-│   ├── 12-wireshark-credentials.png
-│   ├── 13-sender-blacklisted.png
-│   ├── 14-trash-folder.png
-│   ├── 15-firewall-block-ufw.png
-│   └── 16-victim-vm-isolated.png
+│   ├── email-thunderbird.png
+│   ├── redirect-page.png
+│   ├── mxtoolbox-analysis.png
+│   ├── nslookup-domain.png
+│   ├── whois.png
+│   ├── virustotal.png
+│   ├── phishing-page.png
+│   ├── wireshark-post-request.png
+│   ├── wireshark-credentials.png
+│   ├── sender-blacklisted.png
+│   ├── trash-folder.png
+│   ├── firewall-block-ufw.png
+│   └── victim-vm-isolated.png
 │
 └── jira-tickets/
-    └── SEC-OPS-2026-021.pdf
+    └── SEC-OPS-2026-001.pdf
 ```
 
 ---
