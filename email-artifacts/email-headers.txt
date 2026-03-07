@@ -1,0 +1,22 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Return-Path: <sp@IT-Security.contoso.com>
+X-Original-To: prasad12@employee.contoso.com
+Delivered-To: prasad12@employee.contoso.com
+Received: from IT-Security.contoso.com (IT-Security.contoso.com [192.168.29.50])
+	by employee.contoso.com (Postfix) with ESMTP id 17DA3161599
+	for <prasad12@employee.contoso.com>; Fri,  6 Mar 2026 20:52:36 +0530 (IST)
+Received: from [127.0.0.1] (localhost [127.0.0.1])
+	by IT-Security.contoso.com (Postfix) with ESMTP id 65A65142D63
+	for <prasad12@employee.contoso.com>; Fri, 06 Mar 2026 20:52:33 +0530 (IST)
+Message-ID: <5288b407-b6dc-429a-83b4-4fae5dd27b59@IT-Security.contoso.com>
+Date: Fri, 6 Mar 2026 20:52:33 +0530
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+To: prasad12@employee.contoso.com
+From: IT Security Department <sp@IT-Security.contoso.com>
+Subject: Action required: Your password expires in 24 hours
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+

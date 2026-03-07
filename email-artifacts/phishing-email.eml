@@ -1,0 +1,59 @@
+Return-Path: <sp@IT-Security.contoso.com>
+X-Original-To: prasad12@employee.contoso.com
+Delivered-To: prasad12@employee.contoso.com
+Received: from IT-Security.contoso.com (IT-Security.contoso.com [192.168.29.50])
+	by employee.contoso.com (Postfix) with ESMTP id 17DA3161599
+	for <prasad12@employee.contoso.com>; Fri,  6 Mar 2026 20:52:36 +0530 (IST)
+Received: from [127.0.0.1] (localhost [127.0.0.1])
+	by IT-Security.contoso.com (Postfix) with ESMTP id 65A65142D63
+	for <prasad12@employee.contoso.com>; Fri, 06 Mar 2026 20:52:33 +0530 (IST)
+Message-ID: <5288b407-b6dc-429a-83b4-4fae5dd27b59@IT-Security.contoso.com>
+Date: Fri, 6 Mar 2026 20:52:33 +0530
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+To: prasad12@employee.contoso.com
+From: IT Security Department <sp@IT-Security.contoso.com>
+Subject: Action required: Your password expires in 24 hours
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Dear employee@contoso-corp.com,
+
+Our system indicates that your network password is scheduled to expire 
+within 24 hours.
+
+To maintain uninterrupted access to your email, VPN, and company 
+resources, please verify your credentials through our secure portal:
+
+http://IT-Security.contoso.com/office365/login.php
+
+Click the link above and sign in with your office email address and 
+password. You will then be redirected to the official password change 
+page where you can update your password immediately.
+
+This verification is required as part of our quarterly security 
+compliance policy (ISO-27001:2022). The process takes less than 2 
+minutes and helps ensure your account remains secure.
+
+If you do not complete this verification within 24 hours, your account 
+will be temporarily suspended until you reset your password with the IT 
+Service Desk. This is a standard security measure to protect against 
+unauthorized access.
+
+For your security, this link will expire after 24 hours.
+
+Thank you for your prompt attention to this matter.
+
+Regards,
+
+IT Security Team
+Contoso Corporation
+Information Security Department
+
+---
+This is an automated message from Contoso Corporation. Please do not 
+reply directly to this email.
+For assistance, contact the IT Service Desk at extension 5555 or visit 
+https://support.contoso-corp.com
+
