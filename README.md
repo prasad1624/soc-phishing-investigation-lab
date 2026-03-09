@@ -1,14 +1,13 @@
 # End-to-End Phishing Incident Investigation: Credential Harvesting Attack Analysis
 
-A complete security operations center (SOC) phishing incident investigation project demonstrating real-world analysis from alert detection to incident closure. This project simulates a credential harvesting attack and documents the full investigation lifecycle using industry-standard tools and methodologies.
+This project demonstrates a complete phishing incident investigation from detection to containment, simulating a credential harvesting attack in a controlled environment.
 
-This project addresses a critical cybersecurity skill: performing end-to-end phishing incident investigation in a SOC environment, including detection, analysis, containment, and documentation.
-
+The investigation follows a structured incident response workflow using SIEM alert analysis, email header investigation, threat intelligence verification, and sandbox traffic analysis to confirm the attack and identify indicators of compromise (IOCs). The process includes validating email authentication mechanisms (SPF, DKIM, and DMARC), analyzing malicious infrastructure, and documenting containment actions taken to prevent potential credential compromise.
 ---
 
 ## Overview
 
-This project replicates a realistic phishing attack scenario in a controlled lab environment. A targeted phishing email is sent from an attacker VM to a victim, triggering alerts in Wazuh SIEM. As the SOC analyst, you investigate the incident using email header analysis, threat intelligence, and sandbox analysis to confirm the attack and contain it within SLA.
+This project replicates a realistic phishing attack scenario in a controlled lab environment. A targeted phishing email is sent from an attacker VM to a victim, triggering alerts in Wazuh SIEM. As the SOC analyst, the incident is analyzed using email header investigation, threat intelligence verification, and sandbox traffic analysis to confirm the phishing attack and implement containment within the defined SLA.
 
 The investigation follows NIST Incident Response phases and maps techniques to the MITRE ATT&CK framework, providing a comprehensive learning experience for SOC analysts and incident responders.
 
