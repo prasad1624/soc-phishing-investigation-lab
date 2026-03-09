@@ -1,4 +1,4 @@
-# SOC Phishing Incident Investigation and Credential Harvesting Analysis
+# End-to-End Phishing Incident Investigation: Credential Harvesting Attack Analysis
 
 A complete security operations center (SOC) phishing incident investigation project demonstrating real-world analysis from alert detection to incident closure. This project simulates a credential harvesting attack and documents the full investigation lifecycle using industry-standard tools and methodologies.
 
