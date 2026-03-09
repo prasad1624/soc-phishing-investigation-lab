@@ -3,6 +3,7 @@
 This project demonstrates a complete phishing incident investigation from detection to containment, simulating a credential harvesting attack in a controlled environment.
 
 The investigation follows a structured incident response workflow using SIEM alert analysis, email header investigation, threat intelligence verification, and sandbox traffic analysis to confirm the attack and identify indicators of compromise (IOCs). The process includes validating email authentication mechanisms (SPF, DKIM, and DMARC), analyzing malicious infrastructure, and documenting containment actions taken to prevent potential credential compromise.
+
 ---
 
 ## Overview
