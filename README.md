@@ -102,57 +102,6 @@ Attacker VM → Victim VM → SIEM VM → Sandbox VM → SIEM VM → Case Closed
 
 ---
 
-## Repository Structure
-
-```
-soc-phishing-investigation-lab/
-│
-├── README.md
-├── LICENSE
-├── .gitignore
-│
-├── email-artifacts/
-│   ├── phishing-email.eml
-│   ├── email-headers.txt
-│   └── email-body.txt
-│
-├── wazuh-config/
-│   ├── local_rules.xml
-│   └── decoders.xml
-│
-├── investigation/
-│   ├── SOC INCIDENT REPORT.pdf
-│   └── iocs.csv
-│
-├── logs/
-│   ├── alert-100002.json
-│   ├── alert-100003.json
-│   └── alert-100004.json
-│
-├── screenshots/
-│   ├── 01-wazuh-alert-dashboard.png
-│   ├── 02-wazuh-alert-dashboard.png
-│   ├── 03-wazuh-alert-dashboard.png
-│   ├── email-thunderbird.png
-│   ├── redirect-page.png
-│   ├── mxtoolbox-analysis.png
-│   ├── nslookup-domain.png
-│   ├── whois.png
-│   ├── virustotal.png
-│   ├── phishing-page.png
-│   ├── wireshark-post-request.png
-│   ├── wireshark-credentials.png
-│   ├── sender-blacklisted.png
-│   ├── trash-folder.png
-│   ├── firewall-block-ufw.png
-│   └── victim-vm-isolated.png
-│
-└── jira-tickets/
-    └── SEC-OPS-2026-001.pdf
-```
-
----
-
 ## Screenshots
 
 ### Alert Detection
