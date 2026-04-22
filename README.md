@@ -72,7 +72,7 @@ Attacker VM → Victim VM → SIEM VM → Sandbox VM → SIEM VM → Case Closed
 | User Interaction | Did NOT open or click |
 | Credentials Compromised | None |
 | Scope | Single targeted user |
-| Containment Time | 23 minutes |
+| Containment Time | 33 minutes |
 | SLA Met | Yes (within 2 hours) |
 
 ---
